@@ -1,0 +1,93 @@
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+}
+.main {
+  width: 100%;
+}
+header {
+  background-image: url(./assests/bg.jpg);
+  background-size: cover;
+  background-position: center;
+  height: 800px;
+  width: 100%;
+  /* display: flex;
+  align-items: center;
+  justify-content: center; */
+  color: white;
+  text-shadow: 2px 2px 5px rgba(0, 0, 0, 0.7);
+  /* position: absolute; */
+  /* margin-top:20px; */
+}
+.nav {
+  /* display: flex; */
+  font-size: 20px;
+  color: whitesmoke;
+  /* align-items: center; */
+  /* background-color: black; */
+  /* height: 100px; */
+  position: absolute;
+  display: flex;
+}
+img {
+  width: 100px;
+  height: 100px;
+  padding-top: 30px;
+  /* background-color: red; */
+  padding-left: 30px;
+}
+
+ul {
+  list-style: none;
+  display: flex;
+  align-items: center;
+  gap: 40px;
+  justify-content: space-around;
+  font-weight: 700;
+  font-size: 22px;
+}
+.games:hover {
+}
+.dropdown:hover {
+  /* background-color: #4caf50; */
+  color: khaki;
+  padding: 10px;
+  font-size: 16px;
+  border: none;
+  cursor: pointer;
+}
+
+.seconds-txt {
+  padding-left: 30px;
+  padding-top: 30px;
+  position: relative;
+  /* transform: translateX(180px); */
+  left: 28%;
+  transform: translateY(150px);
+  /* background-color: black; */
+  /* width: fit-content; */
+  /* width: 100vw; */
+  text-shadow: 5px 5px 5px red;
+}
+
+h1 {
+  font-size: 4em;
+  margin: 0;
+}
+
+.content {
+  padding: 20px;
+  text-align: center;
+}
+/* 
+@media (min-width: 600px) {
+  .first-txt {
+    width: 20%;
+  }
+}
+@media (max-width: 630px) {
+  .first-txt {
+    width: 20%;
+  }
+} */
